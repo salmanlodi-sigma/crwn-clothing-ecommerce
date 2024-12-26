@@ -1,9 +1,9 @@
-import CategoriesContainer from './categories-container/categories-container.component';
-import categories from './categories-container/categories.json';
+
+import Directory from './directory/directory.component';
 
 const App = ()=> {
   return (
-    <CategoriesContainer categories={categories}/>
+    <Directory/>
   );
 }
 
